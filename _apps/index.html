@@ -1,0 +1,25 @@
+---
+layout: default
+title: Apps
+---
+
+<h1>Apps</h1>
+
+<div class="app-list">
+  {% for app in site.apps %}
+  {% if app.icon %}
+    {% if app.absolute_url %}
+      <a href="{{ app.absolute_url }}">
+    {% else %}
+      <a href="{{ app.url | absolute_url }}">
+    {% endif %}
+    <div class="app">
+      <img src="/assets/{{ app.icon }}" style="max-width: 100px;"/>
+      <h2>
+        {{ app.title }}
+      </h2>
+    </div>
+    </a>
+  {% endif %}
+  {% endfor %}
+</div>
