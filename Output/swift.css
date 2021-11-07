@@ -1,0 +1,41 @@
+pre code {
+    font-weight: 500;
+}
+
+pre code .keyword {
+    color: #FC5FA3;
+    font-weight: bold;
+}
+
+pre code .type {
+    color: #7AC8B6;
+}
+
+pre code .call {
+    color: #99E8D5;
+}
+
+pre code .property {
+    color: #97D06C;
+}
+
+pre code .number {
+    color: #9686F5;
+}
+
+pre code .string {
+    color: #FC6A5D;
+}
+
+pre code .comment {
+    color: #6C7986;
+    font-style: italic;
+}
+
+pre code .dotAccess {
+    color: #97D06C;
+}
+
+pre code .preprocessing {
+    color: #FD8F3F;
+}
